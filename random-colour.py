@@ -21,5 +21,5 @@ if __name__ == '__main__':
         for i in range(0,25):
             rgb = random_colour()
             tree[i] = [1, rgb[0], rgb[1], rgb[2]]
-            sleep(1)
         tree.commit()
+        sleep(1)
