@@ -10,4 +10,5 @@ if __name__ == '__main__':
         for i in range(0,25):
             on = 255 if random() < 0.66 else 0
             tree[i] = [1, on, on, on]
+            sleep(1)
         tree.commit()
