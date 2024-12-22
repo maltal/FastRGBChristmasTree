@@ -3,6 +3,7 @@ Randomly sparkle LEDs
 '''
 from tree import FastRGBChristmasTree
 from random import random
+from time import sleep
 
 if __name__ == '__main__':
     tree = FastRGBChristmasTree()

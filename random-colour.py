@@ -4,6 +4,7 @@ Cycles the LEDs with random colours.
 from tree import FastRGBChristmasTree
 from colorzero import Color
 from random import random
+from time import sleep
 
 def random_colour():
     h = random()
